@@ -14,12 +14,18 @@ config(function($stateProvider, $urlRouterProvider) {
     .state('home', {
       url:"/home",
       templateUrl: "partials/about.html"
-    }).state('downloads', {
+    })
+    .state('downloads', {
       url:"/downloads",
       templateUrl: "partials/downloads.html"
-    }).state('document', {
+    })
+        .state('document', {
       url:"/document",
       templateUrl: "partials/document.html"
+    })
+    .state('wiki', {
+      url:"/wiki",
+      templateUrl: "partials/wiki.html"
     });
 });
 
